@@ -1,44 +1,61 @@
-# Telecom_Churn_Analysis
-Telecom Customer Churn Analysis and Prediction
-Project Overview
-This project analyzes telecom customer churn using advanced exploratory data analysis and machine learning techniques. It aims to identify key factors affecting churn, develop predictive models to classify churned vs non-churned customers, and provide actionable insights to reduce attrition.
+📊 Telecom Customer Churn Analysis and Prediction
+🔍 Project Overview
 
-Dataset
-The dataset contains customer demographic and service usage information, including variables such as contract type, payment method, internet service, tenure, monthly and total charges, tech support, and others.
+This project focuses on analyzing telecom customer churn using exploratory data analysis (EDA) and machine learning techniques.
+The goal is to identify key drivers of customer churn, build predictive models to classify churned vs. non-churned customers, and deliver actionable insights to minimize attrition.
 
-Analysis and Modeling
-Conducted univariate and bivariate analysis to understand variable distributions and correlations with churn.
+📁 Dataset
 
-Built and compared multiple models: logistic regression, random forest, and XGBoost.
+The dataset includes customer demographics and service usage details, such as:
 
-Achieved perfect accuracy and ROC-AUC during validation, indicating highly accurate churn prediction.
+Contract Type
 
-Identified top predictors: contract type, tenure, payment method, internet service type, tech support availability, and monthly charges.
+Payment Method
 
-Usage Instructions
-Set up Python environment:
+Internet Service Type
 
-text
+Tenure
+
+Monthly & Total Charges
+
+Tech Support Availability
+
+And other relevant customer attributes
+
+⚙️ Analysis & Modeling
+
+Performed univariate and bivariate analysis to explore data distributions and relationships with churn.
+
+Built and compared multiple models:
+
+Logistic Regression
+
+Random Forest
+
+XGBoost
+
+Achieved perfect accuracy and high ROC-AUC on validation data.
+
+Identified top predictors influencing churn:
+Contract Type, Tenure, Payment Method, Internet Service Type, Tech Support, and Monthly Charges.
+
+🧠 How to Use
+
+Set up environment:
+
 pip install -r requirements.txt
-Run the Jupyter notebooks or Python scripts in the following order:
 
-Data preprocessing
 
-Exploratory analysis
+Run scripts or notebooks in the following order:
 
-Model training and evaluation
+Data Preprocessing
 
-View generated plots for insights and model performance, and consult exported PowerPoint presentation for summaries.
+Exploratory Analysis
 
-Project Structure
-/notebooks: Jupyter notebooks for analysis and modeling
+Model Training & Evaluation
 
-/data: Dataset or data loading scripts
+View outputs:
 
-/images: Plots and visualizations
+Plots for insights and model performance
 
-/reports: Final presentations and summary documents
-
-requirements.txt: Python dependencies
-
-README.md: Project documentation
+PowerPoint summary in /reports
